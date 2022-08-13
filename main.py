@@ -44,7 +44,7 @@ def get_random_color():
   return "#%06x" % random.randint(0, 0xFFFFFF)
 
 
-client = WeChatClient(app_id, app_secret)
+client = WeChatClient('wx8a0d005ecc49304c', 'e6ee93824d94b37f3e7ca69a4682e6d9')
 
 wm = WeChatMessage(client)
 wea, temperature = get_weather()
